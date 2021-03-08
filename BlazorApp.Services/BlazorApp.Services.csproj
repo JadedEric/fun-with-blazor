@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorApp.Domains\BlazorApp.Domains.csproj" />
+    <ProjectReference Include="..\BlazorApp.UnitOfWork\BlazorApp.UnitOfWork.csproj" />
+    <ProjectReference Include="..\BlazorApp\Shared\BlazorApp.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
